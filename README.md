@@ -10,6 +10,7 @@
  `pip install -r requirements.txt`
 ### 2. Data
 **The OilleakDataset comprises registered RGB and TIR (Thermal Infrared) image pairs.**
+Cloud drive link: coming soon~
 
 The dataset structure is as follows:
 
