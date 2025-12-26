@@ -9,9 +9,11 @@
  The provided requirements.txt file contains the dependencies for our conda environment; you can refer to it for necessary libraries. Alternatively, you can simply run：
  `pip install -r requirements.txt`
 ### 2. Data
-The OilleakDataset comprises registered RGB and TIR (Thermal Infrared) image pairs.
+**The OilleakDataset comprises registered RGB and TIR (Thermal Infrared) image pairs.**
+
 The dataset structure is as follows:
-The images folder holds the RGB images.
-The irimages folder contains the corresponding TIR images.
-The label folder provides the YOLO format label files: [class_id, x1, y1, x2, y2, x3, y3, x4, y4].
+
+* The `images` folder holds the **RGB images**.
+* The `irimages` folder contains the corresponding **TIR images**.
+* The `label` folder provides the **YOLO format label files**: `[class_id, x1, y1, x2, y2, x3, y3, x4, y4]`.
 
