@@ -3,3 +3,10 @@ Oilleak is a dual-modal oil spill dataset collected by UAVs, featuring paired RG
 
 ## 🖼️ Figures (displays some data in the dataset)
 ![Example 1](example/examples.png) 
+
+## ⚙️ Usage Instructions
+### 1. Environment Dependencies
+The provided requirements.txt file contains the dependencies for our conda environment; you can refer to it for necessary libraries. Alternatively, you can simply run：
+```bash
+pip install -r requirements.txt
+
