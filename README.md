@@ -7,5 +7,5 @@
 ## ⚙️ Usage Instructions
 ### 1. Environment Dependencies
  The provided requirements.txt file contains the dependencies for our conda environment; you can refer to it for necessary libraries. Alternatively, you can simply run：
-'pip install -r requirements.txt'
+ `pip install -r requirements.txt`
 
