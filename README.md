@@ -20,4 +20,17 @@ The dataset structure is as follows:
 * The `label` folder provides the **YOLO format label files**: `[class_id, x1, y1, x2, y2, x3, y3, x4, y4]`.
 
 ### 3. 🚀 Training
+Please follow the steps below to configure your data and network structure:
+
+1.  **Data Configuration (`data/mixoldata.yaml`)**
+    * Please modify the path information within the configuration file `data/mixoldata.yaml` to match your actual data storage location.
+    * **Note:** Ensure the paths correctly point to your dataset folders.
+
+2.  **Network Architecture Adjustment (Optional)**
+    * If you need to adjust the network architecture (e.g., modifying model depth, width, etc.), please refer to the following configuration file:
+        * `lzq/DLANet/yaml/DLANet_yolo11l-obb.yaml`
+3.  **Begin Training**
+     * **Note:**  The training strategy, such as epochs and batch size, can be adjusted according to the actual task.
+```bash
+python 1_train_mix.py
 
