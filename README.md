@@ -19,3 +19,5 @@ The dataset structure is as follows:
 * The `irimages` folder contains the corresponding **TIR images**.
 * The `label` folder provides the **YOLO format label files**: `[class_id, x1, y1, x2, y2, x3, y3, x4, y4]`.
 
+### 3. 🚀 Training
+
