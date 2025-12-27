@@ -28,9 +28,19 @@ Please follow the steps below to configure your data and network structure:
 
 2.  **Network Architecture Adjustment (Optional)**
     * If you need to adjust the network architecture (e.g., modifying model depth, width, etc.), please refer to the following configuration file:
-        * `lzq/DLANet/yaml/DLANet_yolo11l-obb.yaml`
+        * `yaml/DLANet_yolo11l-obb.yaml`
 3.  **Begin Training**
      * **Note:**  The training strategy, such as epochs and batch size, can be adjusted according to the actual task.
-```bash
-python 1_train_mix.py
+     ```bash
+     python 1_train_mix.py
+     
+### 4. 🔍 Inference
+To assess model performance, use the following scripts:
+
+* **Evaluate Validation Accuracy:**
+    Run the script `python 2_val_run.py` to evaluate the accuracy of the validation set.
+
+* **Visualize Predictions:**
+    Run the script `python 3_vis_predict_obb.py` to visualize the effect of the predicted targets overlaid on the images.
+
 
