@@ -11,7 +11,9 @@
 ### 2. Data
 **The OilleakDataset comprises registered RGB and TIR (Thermal Infrared) image pairs.**
 
-Cloud drive link: coming soon~
+Cloud drive link: https://drive.google.com/file/d/1nKYtcaOMtvh0zvcz4tcfedB1e_fhLSpO/view
+
+(Please note that, due to the project owner's current requirements, we are only able to provide a partial dataset for this delivery (specifically, the data that has already been registered/aligned). We anticipate being able to upload the complete dataset in a subsequent update/delivery.)
 
 The dataset structure is as follows:
 
