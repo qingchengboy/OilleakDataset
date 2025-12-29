@@ -45,4 +45,21 @@ To assess model performance, use the following scripts:
 * **Visualize Predictions:**
     Run the script `python 3_vis_predict_obb.py` to visualize the effect of the predicted targets overlaid on the images.
 
+## 📝 Citation
+
+If you find the Oilleak Dataset or the associated code useful for your research, please cite our paper:
+```bash
+@Article{rs18010107,
+AUTHOR = {Li, Zhuqiang and Zhen, Zhijun and Chen, Shengbo and Zhang, Liqiang and Cao, Lisai},
+TITLE = {Dual-Level Attention Relearning for Cross-Modality Rotated Object Detection in UAV RGB–Thermal Imagery},
+JOURNAL = {Remote Sensing},
+VOLUME = {18},
+YEAR = {2026},
+NUMBER = {1},
+ARTICLE-NUMBER = {107},
+URL = {https://www.mdpi.com/2072-4292/18/1/107},
+ISSN = {2072-4292},
+DOI = {10.3390/rs18010107}
+}
+
 
